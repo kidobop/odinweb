@@ -1,3 +1,7 @@
+/* * {
+    outline: 3px solid blue
+}
+*/
 body,html {
     padding: 0;
     margin: 0;
@@ -12,11 +16,16 @@ body,html {
 
 }
 
+.navbar h3{
+    font-size: 24px;
+}
+
 .navbar ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     font-weight: 18px;
+    font-size: 18px;
 
 }
 
@@ -28,4 +37,52 @@ body,html {
 .navbar ul li a {
     text-decoration: none;
     color:white;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding: 50px;
+    padding-bottom: 100px;
+    padding-left: 290px;
+    padding-top: 100px;
+
+}
+
+.hero img{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    float: right;
+    right: 250px;
+    bottom: 25px;
+    
+}
+
+.hero-text{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+.hero-text h2{
+    font-size: 48px;
+    margin: 0%;
+    display: flex;
+    
+}
+
+.hero-text a{
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    background: #5f95e1;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 10px;
 }
