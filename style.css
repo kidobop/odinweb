@@ -1,6 +1,6 @@
- * {
+/* * {
     outline: 3px solid blue
-}
+} */
 
 body,html {
     padding: 0;
@@ -121,8 +121,40 @@ body,html {
     margin: auto;
     display: flex;
     justify-content: center;
+    border: #1b6de0;
+    border-radius: 5px;
+    border: 6px solid #5fc918;
 }
 
 .info ul li{
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    
+}
+
+.quote{
+    padding: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: lighter;
+    max-width:600;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+}
+.callbox{
+    max-width: 600px;
+    background-color: #1b6de0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 100px;
 }
