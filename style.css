@@ -1,6 +1,6 @@
-/* * {
-    outline: 3px solid blue
-} */
+ * {
+     outline: 3px solid blue
+ }
 
 body,html {
     padding: 0;
@@ -149,13 +149,54 @@ body,html {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30vh;
 }
 .callbox{
+    display: flex;
     background-color: #1b6de0;
     margin: 50px;
-    padding: 90px;
-    width: 900px;
-    height: 50px;
+    padding: 10px;
+    width: 50%;
+    /* height: max-content; */
     border-radius: 5px;
     align-items: center;
+    text-align: left;
+    
+}
+
+.h3-p{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.h3-p h3{
+    margin: 1px;
+}
+
+.h3-p p{
+    margin: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.callbox button{
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 95px;
+    width: 14%;
+    background-color: #1b6de0;
+    border-color: white;
+    
+    
+}
+
+.callbox button a{
+    text-decoration: none;
+    color: white;
 }
