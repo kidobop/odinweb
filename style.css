@@ -63,7 +63,7 @@ body,html {
 }
 
 .hero-text{
-    width: 450px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -74,6 +74,7 @@ body,html {
     font-size: 48px;
     margin: 0%;
     display: flex;
+
     
 }
 
@@ -110,8 +111,11 @@ body,html {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+}
+.info ul{
+    margin-top: 20px;
 }
 
 .info ul li img {
